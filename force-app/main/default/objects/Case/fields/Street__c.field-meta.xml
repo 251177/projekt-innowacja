@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Shelter__c</fullName>
-    <deleteConstraint>SetNull</deleteConstraint>
+    <fullName>Street__c</fullName>
     <externalId>false</externalId>
-    <label>Shelter</label>
-    <referenceTo>Shelter__c</referenceTo>
-    <relationshipLabel>Cases</relationshipLabel>
-    <relationshipName>Cases</relationshipName>
+    <label>Street</label>
+    <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Lookup</type>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>
