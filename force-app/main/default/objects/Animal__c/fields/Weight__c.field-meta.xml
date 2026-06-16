@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Weight__c</fullName>
     <externalId>false</externalId>
-    <label>Weight</label>
+    <label>Weight (kg)</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>
