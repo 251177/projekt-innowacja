@@ -11,9 +11,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Ai:Mals</label>
     <navType>Standard</navType>
-    <tabs>standard-home</tabs>
     <tabs>Animal__c</tabs>
-    <tabs>standard-Account</tabs>
     <tabs>Adoption__c</tabs>
     <tabs>standard-Case</tabs>
     <tabs>Shelter__c</tabs>
