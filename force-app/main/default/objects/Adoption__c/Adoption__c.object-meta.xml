@@ -155,9 +155,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Adoption</label>
     <nameField>
-        <displayFormat>ADOP-{0000}</displayFormat>
         <label>Adoption Name</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Adoptions</pluralLabel>
     <searchLayouts></searchLayouts>
