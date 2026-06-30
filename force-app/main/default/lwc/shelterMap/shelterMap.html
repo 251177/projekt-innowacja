@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Local Shelters Map" icon-name="custom:custom78">
+        <div class="slds-p-around_medium">
+            <template if:true={mapMarkers.length}>
+                <lightning-map
+                    map-markers={mapMarkers}
+                    selected-marker-value={selectedMarkerValue}
+                    zoom-level="12">
+                </lightning-map>
+            </template>
+            <template if:false={mapMarkers.length}>
+                <p class="slds-text-align_center slds-text-color_weak">No location data available. Please fill in the City field.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
