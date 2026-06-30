@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Shelter Operating Hours</masterLabel>
+    <targets>
+        <target>lightning__HomePage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage,lightning__AppPage,lightning__RecordPage">
+            <property name="monday" type="String" label="1. Monday" default="10:00 - 18:00"/>
+            <property name="tuesday" type="String" label="2. Tuesday" default="10:00 - 18:00"/>
+            <property name="wednesday" type="String" label="3. Wednesday" default="10:00 - 18:00"/>
+            <property name="thursday" type="String" label="4. Thursday" default="10:00 - 18:00"/>
+            <property name="friday" type="String" label="5. Friday" default="10:00 - 18:00"/>
+            <property name="saturday" type="String" label="6. Saturday" default="10:00 - 14:00"/>
+            <property name="sunday" type="String" label="7. Sunday" default="Closed"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
