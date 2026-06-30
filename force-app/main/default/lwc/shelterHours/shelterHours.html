@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Shelter Operating Hours" icon-name="custom:custom93">
+        <div class="slds-p-around_medium">
+            <ul class="slds-m-around_none">
+                <template for:each={operatingDays} for:item="day">
+                    <li key={day.id} class="slds-grid slds-p-vertical_small slds-border_bottom">
+                        <div class="slds-col slds-size_1-of-2 slds-text-title_caps slds-text-color_weak">
+                            {day.name}
+                        </div>
+                        <div class="slds-col slds-size_1-of-2 slds-text-align_right">
+                            <template if:true={day.isOpen}>
+                                <strong>{day.hours}</strong>
+                            </template>
+                            <template if:false={day.isOpen}>
+                                <strong class="slds-text-color_error">Closed</strong>
+                            </template>
+                        </div>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </lightning-card>
+</template>
